@@ -1,0 +1,16 @@
+Clase mascosa
+    *Atributos
+        - energia que va de 0 a 100
+        - humor que va de 1 a 5
+    * Metodos
+        comer: incrementa la energia, un valor de 0 a 100, en 10% la energia que tiene la mascoa y incrementa el humor en 1 nivel
+        beber: + energia en un 5% y + humor en 1
+        correr: - energia en un 35% que tiene la mascota y - humor en 2%
+        saltar: - energia en un 15% y - humor en 2 niveles
+        dormir: solo puede responder a despertar y se + energia en 25 unidades y el humor en 2
+        despertar: recien ahora puede responder a los otros metodos y me - humor en un nivel
+    * Reglas generales
+         la energia no puede superar los 100, si baja 0 se muere
+         si la alegria llega a 0 se va a dormir por porpa inicitiva
+         retorna false si no puede realizar un comportamiento por estar en un estado debe retornar false
+         y si el comportamiento se puede realizar lo hace true
