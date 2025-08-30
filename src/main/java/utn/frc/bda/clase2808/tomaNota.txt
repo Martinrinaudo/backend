@@ -1,0 +1,44 @@
+en el parcial no van a dar test si o si
+parcial sabado 11/20
+coloquio entre los que tiene 6, 7, 8
+
+arreglo y colecciones
+arreglo es la estructura de datos mas simple de datos, guarda un conjunto de datos, bajo el mismo identificador y cuantan con un indice
+indices arrancan en 0 y as
+por ejemplos V [0, 1, 3, 4] es un vector de 5 casilleros este
+arreglo creado con un tamano fijo y no lo puedo cambiar mas,
+Sintaxis arreglos:
+    - Declaracion: variable con nombre que hacer referencia al arreglo en si
+        tipo [] nombre:
+        el tipo de datos que vamos a mater ahi y solo podemos guardar ese tipo de datos, nada mas, no mezclar tipos de datos
+        int [] v
+
+    - Creacion:
+            nombre = new tipo [tamaño]       v = new int [20]
+    - Accesi indexado:
+        nombre [indice]
+
+        recorridos: secuencial
+        for (int i = 0; i < nombre.lenght; i++)
+            nombre[i]    puedo definir como recorrer o por donde recorrerlo
+
+
+        for ( tipo var   : nombre)         es un for each, declara esa variable temporal y hacer q en cada vuelta la var apunte a cada variable del arreglo
+        operamos con var luego de esto
+        SOP(var);                                   esta opciones recorre todo el arrelo y no puedo cambiarlo
+        ese var puede llamar cada, solo para consultar y recorrer todo porque no puedo parar
+        Arreglos con objetos
+        creamos el arreglo y hay que crear cada obj con new
+        Persona plantel = new Persona [5]
+        for (int i = 0, i < plantel.lenghtl; i++) {
+        cargar datos
+        plantel[1] = new Persona(...)
+        }
+
+
+Actividad:
+    Llevar un arreglo de numero enteros con 20 numeros entre -100 y 100 inclusive tomandos al azar (math.random)
+    luego de la carga informar:
+    - Promedio de todos
+    - cant de negativos
+    - mayor de todos
